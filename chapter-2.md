@@ -11,4 +11,19 @@ Python. Vì vậy, đó là nơi chúng ta bắt đầu.
 Trong chương này sẽ giúp bạn tìm hiểu cơ bản về cách làm việc với mạng trong Python với module
 `socket`. Theo cách này, chúng ta sẽ xây dựng clients, server và một TCP proxy.
 
+```python
+import socket
+target_host = "www.google.com"
+target_port = 80
+# create a socket object
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# connect the client
+client.connect((target_host, target_port))
+# send some data
+client.send(b"GET / HTTP/1.1\r\nHost: google.com\r\n\r\n")
+# receive some data
+response = client.recv(4096)
+print(response.decode())
+client.close()
 
+```
