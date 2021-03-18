@@ -1,6 +1,6 @@
 # Black_Hat_Python
 
-# Mục lục
+# Tables of Content
 
 - Chương 1: Cài đặt môi trường
 - Chương 2: Mạng
@@ -15,3 +15,7 @@
 - Chương 11: Offensive Forensics
 
 # Cre : Black Hat Python (Early Access) © 2021 by Justin Seitz and Tim Arnold.
+
+# How to use
+
+This project base on Jupyter Notebook. So for use, just following [Jupyter Interactive Notebook](https://github.com/jupyter/notebook) to setup.
