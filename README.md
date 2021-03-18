@@ -19,3 +19,5 @@
 # How to use
 
 This project base on Jupyter Notebook. So for use, just following [Jupyter Interactive Notebook](https://github.com/jupyter/notebook) to setup.
+
+\*Note for Ubuntu: `~/.local/bin/jupyter-notebook ` to run local.
